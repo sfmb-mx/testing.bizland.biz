@@ -5,6 +5,8 @@ bootstrap-pagespeed
 
 This is a fork of <https://github.com/danriti/bootstrap-pagespeed>
 
+-------------------------------------------------------------------------------
+
 This repository displays how to get a perfect PageSpeed Insights score with a
 [Bootstrap example][5].
 
