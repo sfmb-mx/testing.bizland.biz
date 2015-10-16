@@ -24,7 +24,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "emailaddress@test.com";
+$EmailTo = "smendoza.barrera@gmail.com";
 $Subject = "New Message Received";
 
 // prepare email body text
