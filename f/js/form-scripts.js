@@ -47,7 +47,7 @@ function formError(){
 function submitMSG(valid, msg){
     if(valid){
         // var msgClasses = "h3 text-center tada animated text-success";
-        var msgClasses = "col-sm-4 h4 text-center animated bg-warning";
+        var msgClasses = "col-sm-8 h4 text-center animated bg-warning";
     } else {
         // var msgClasses = "h3 text-center text-danger";
         var msgClasses = "h4 text-center text-warning";
