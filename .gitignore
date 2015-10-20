@@ -28,7 +28,6 @@ _site
 *.sublime-workspace
 nbproject
 Thumbs.db
-js/.tern-port
 
 # Komodo
 .komodotools
