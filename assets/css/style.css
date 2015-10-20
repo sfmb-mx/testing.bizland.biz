@@ -62,7 +62,7 @@ h1 {
 h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-    color: #feff96;
+    color: #FFD246;
     text-transform: uppercase;
 }
 h3 {
@@ -401,6 +401,7 @@ nav section {
 }
 
 .vcontainer {
+    border-radius: 5px;
     background: #FFD246;
     margin-bottom: 10px;
     padding-bottom: 10px;
