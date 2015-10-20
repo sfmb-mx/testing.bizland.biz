@@ -71,6 +71,15 @@ h3 {
     color: #fff;
 }
 
+h4 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #FE3253;
+}
+
 h1 { font-size: 45px;}
 h2 { font-size: 36px;}
 h3 { font-size: 20px;}
@@ -389,4 +398,10 @@ nav {
 }
 nav section {
     margin-top: 15%;
+}
+
+.vcontainer {
+    background: #FFD246;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
