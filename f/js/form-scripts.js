@@ -19,7 +19,7 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "php/form-process.php",
+        url: "f/php/form-process.php",
         // data: "name=" + name + "&email=" + email + "&message=" + message,
         data: "&email=" + email,
         success : function(text){
