@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $(".newsletter-signup").ajaxChimp({
         callback: mailchimpResponse,
-        url: "http://learningwellness.us8.list-manage.com/subscribe/post?u=b9328d99f806177af525f7cde" // Replace your mailchimp post url inside double quote "".
+        url: "//learningwellness.us8.list-manage.com/subscribe/post?u=b9328d99f806177af525f7cde&amp;id=289ade4d78" // Replace your mailchimp post url inside double quote "".
     });
 
     function mailchimpResponse(resp) {
