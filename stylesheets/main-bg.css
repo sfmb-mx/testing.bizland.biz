@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------------------*/
+/*This is main CSS file that intializes BG Images used in this template*/
+/*--------------------------------------------------------------------------*/
+
+
+.promo-section{
+	background-image: url('../images/bg/001.jpg');
+}
+.contact{
+	background-image: url('../images/bg/002.jpg');
+}
+.photography-carousel-item-01{
+	background-image:url('../images/bg/03.jpg');
+}
+
+.photography-carousel-item-02{
+	background-image:url('../images/bg/02.jpg');
+}
+
+.photography-carousel-item-03{
+	background-image:url('../images/bg/01.jpg');
+}
+
+.agency-carousel-item-01{
+	background-image:url('../images/bg/01.jpg');
+}
+
+.agency-carousel-item-02{
+	background-image:url('../images/bg/02.jpg');
+}
+
+.agency-carousel-item-03{
+	background-image:url('../images/bg/03.jpg');
+}
+
+/*Mobile Menu Logo*/
+.menu-collapser {
+    background-image: url('../images/logo-dark.png');
+}
