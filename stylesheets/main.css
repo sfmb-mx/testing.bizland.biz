@@ -169,12 +169,13 @@ h1,h2,h3,h4,h5,h6{
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .intro-header{
     width: 100%;
-    height: 70px;
+    height: 100px;
     display: block;/*
                       padding-left: 10%;
                       padding-right:10%;*/
     position: absolute;
     z-index: 100;
+    padding: 2%;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
@@ -426,8 +427,8 @@ div#preloader {
 .hero-caps h1{
     font-family: 'Montserrat', sans-serif; font-weight:700;
     text-transform: uppercase;
-    font-size: 200px;
-    line-height: 207px;
+    font-size: 80px;
+    line-height: 257px;
     letter-spacing: 16px;
 }
 .hero-caps h6{
@@ -1694,7 +1695,7 @@ fieldset h1 {
     list-style: none outside none;
     margin: 0;
     padding: 0;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .foot-social li {
     display: inline-block;
@@ -1702,7 +1703,7 @@ fieldset h1 {
     margin-right: 3px;
 }
 .foot-social li a > img {
-    width: 28px;
+    width: 22px;
     opacity: 1;
     transition: all 0.8s linear 0s;
 }
@@ -1712,4 +1713,16 @@ fieldset h1 {
 }
 
 /*LESS COMPILED TO CSS (For Demo Preview purposes)*/
-.white{color:#fff}.silver{color:#f1f1f1}.dark{color:#2d2d2d}.black{color:#181818}.grey{color:#ccc}.color{color:#fd4326}.white-bg{background:#fff}.silver-bg{background:#f1f1f1}.dark-bg{background:#2d2d2d}.black-bg{background:#181818}.grey-bg{background:#ccc}.color-bg{background:#fd4326}.trans-dark{background:rgba(0,0,0,0.5)}.trans-white{background:rgba(255,255,255,0.5)}::selection{background:#fd4326;color:#2d2d2d}::-moz-selection{background:#fd4326;color:#2d2d2d}.btn-odin-color{background-color:#fd4326;color:#fd4326;color:#fff}.btn-odin-color:hover{background-color:#2d2d2d;color:#fff}.btn-odin-white:hover{background-color:#fd4326;color:#fd4326;color:#fff;background-color:#fd4326;color:#fd4326;color:#fff}.ajax-loader-html{background:#fd4326}.pace .pace-progress{background-color:#f1f1f1}.standard-nav li > a.highlighted{color:#fd4326}.intro .mouse-icon.dark{border-color:#2d2d2d}.intro .mouse-icon.dark .wheel{background-color:#2d2d2d}.intro .mouse-icon.dark:hover .wheel{background-color:#2d2d2d}.intro .mouse-icon.white{border-color:#2d2d2d}.intro .mouse-icon.white .wheel{background-color:#2d2d2d}.intro .mouse-icon.white:hover .wheel{background-color:#2d2d2d}.features-details{border-color:#f1f1f1}.features-icon.current > h5{color:#fd4326}.active-service{background:#fd4326}.testimonial-wrap > p > span{border-color:#fd4326}ul#portfolioFilter li{background:#f1f1f1}ul#portfolioFilter li:hover{background:#2d2d2d;color:#fff}ul#portfolioFilter li.active-filter{background:#fd4326;color:#2d2d2d}div#portfolio_thumbs ul li div.item_info{background:#181818;color:#2d2d2d}div#portfolio_thumbs ul li div.item_info h3 > span{border-color:#fff;color:#fff}div#portfolio_thumbs ul li div.item_info p > span{color:#fff}.team-stage > h6 > span{border-color:#fd4326;color:#2d2d2d}.standard-nav-white-text li > a{color:#fff}.standard-nav-dark-text li > a{color:#2d2d2d}.project-type > span{border-color:#fd4326}.item:hover > a > .thumb-title{background:#181818;color:#fff}.thumb-title > h5 > span{color:#fff;border:solid 1px #fff}.alert{background:#fd4326}.alert > p{color:#fff!important}.service-name-wrap{background:#f1f1f1}.hero-caps h6.black > span{border-color:#181818}.hero-caps h6.white > span{border-color:#fff}.hero-caps h6.color > span{border-color:#fd4326}.hero-caps h2.white > span{border-color:#fd4326}.hero-caps h2.dark > span{border-color:#fd4326}.project-page-caps h3.white > span{border-color:#fd4326}.project-page-caps h3.dark > span{border-color:#fd4326}.news-post{border-color:#fff}.news-post:hover{border-color:#fd4326}
+.white{color:#fff}.silver{color:#f1f1f1}.dark{color:#2d2d2d}.black{color:#181818}.grey{color:#ccc}.color{color:#fd4326}.white-bg{background:#fff}.silver-bg{background:#f1f1f1}.dark-bg{background:#2d2d2d}.black-bg{background:#181818}.grey-bg{background:#ccc}.color-bg{background:#fd4326}.trans-dark{background:rgba(0,0,0,0.5)}.trans-white{background:rgba(255,255,255,0.5)}::selection{background:#fd4326;color:#2d2d2d}::-moz-selection{background:#fd4326;color:#2d2d2d}.btn-odin-color{background-color:#fd4326;color:#fd4326;color:#fff}.btn-odin-color:hover{background-color:#2d2d2d;color:#fff}.btn-odin-white:hover{background-color:#fd4326;color:#fd4326;color:#fff;background-color:#fd4326;color:#fd4326;color:#fff}.ajax-loader-html{background:#fd4326}.pace .pace-progress{background-color:#f1f1f1}.standard-nav li > a.highlighted{color:#fd4326}.intro .mouse-icon.dark{border-color:#2d2d2d}.intro .mouse-icon.dark .wheel{background-color:#2d2d2d}.intro .mouse-icon.dark:hover .wheel{background-color:#2d2d2d}.intro .mouse-icon.white{border-color:#FFF}.intro .mouse-icon.white .wheel{background-color:#FFF}.intro .mouse-icon.white:hover .wheel{background-color:#2d2d2d}.features-details{border-color:#f1f1f1}.features-icon.current > h5{color:#fd4326}.active-service{background:#fd4326}.testimonial-wrap > p > span{border-color:#fd4326}ul#portfolioFilter li{background:#f1f1f1}ul#portfolioFilter li:hover{background:#2d2d2d;color:#fff}ul#portfolioFilter li.active-filter{background:#fd4326;color:#2d2d2d}div#portfolio_thumbs ul li div.item_info{background:#181818;color:#2d2d2d}div#portfolio_thumbs ul li div.item_info h3 > span{border-color:#fff;color:#fff}div#portfolio_thumbs ul li div.item_info p > span{color:#fff}.team-stage > h6 > span{border-color:#fd4326;color:#2d2d2d}.standard-nav-white-text li > a{color:#fff}.standard-nav-dark-text li > a{color:#2d2d2d}.project-type > span{border-color:#fd4326}.item:hover > a > .thumb-title{background:#181818;color:#fff}.thumb-title > h5 > span{color:#fff;border:solid 1px #fff}.alert{background:#fd4326}.alert > p{color:#fff!important}.service-name-wrap{background:#f1f1f1}.hero-caps h6.black > span{border-color:#181818}.hero-caps h6.white > span{border-color:#fff}.hero-caps h6.color > span{border-color:#fd4326}.hero-caps h2.white > span{border-color:#fd4326}.hero-caps h2.dark > span{border-color:#fd4326}.project-page-caps h3.white > span{border-color:#fd4326}.project-page-caps h3.dark > span{border-color:#fd4326}.news-post{border-color:#fff}.news-post:hover{border-color:#fd4326}
+
+.trans-white-low {
+    background: rgba(255,255,255,0.1);
+}
+
+.yellow {
+    color: #FDD211;
+}
+
+.red {
+    color: #FE3253;
+}
