@@ -37,3 +37,11 @@
     padding-top: 100px;
     background-image: url('../images/logo-white.png');
 }
+
+.cp-about{
+    background-image: url('../images/bg/002.jpg');
+}
+
+.cp-communities{
+    background-image: url('../images/bg/003.jpg');
+}
