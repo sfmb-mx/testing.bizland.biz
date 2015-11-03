@@ -34,5 +34,6 @@
 
 /*Mobile Menu Logo*/
 .menu-collapser {
-    background-image: url('../images/logo-dark.png');
+    padding-top: 100px;
+    background-image: url('../images/logo-white.png');
 }
