@@ -1533,7 +1533,7 @@ div#portfolio_thumbs ul li a:hover{
     font-size: 18px;
     line-height: 25px;
     font-family: 'Open Sans', sans-serif; font-weight:300;
-    color: #fff;
+    color: #000;
 }
 .contact-form-wrap{
     padding-top: 50px;
@@ -1546,7 +1546,7 @@ input {
     border-bottom: 1px solid #656565 !important;
     border-radius: 0px !important;
     box-shadow: none !important;
-    color: #fff !important;
+    color: #656565 !important;
     font-family: 'Open Sans', sans-serif !important; font-weight:300 !important;
     height: 50px !important;
     font-size: 14px !important;
@@ -1564,8 +1564,8 @@ input {
     transition: all .8s linear;
 }
 input:focus, textarea:focus {
-    border-bottom: solid 1px #fff !important;
-    color: #fff !important;
+    border-bottom: solid 1px #656565 !important;
+    color: #FE3253 !important;
     -webkit-transition: all .8s linear;
     -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
@@ -1578,7 +1578,7 @@ textarea {
     border-bottom: 1px solid #656565 !important;
     border-radius: 0px !important;
     box-shadow: none !important;
-    color: #fff !important;
+    color: #656565 !important;
     font-family: 'Open Sans', sans-serif !important; font-weight:300 !important;
     font-size: 14px !important;
     line-height: 21px !important;
@@ -1597,7 +1597,7 @@ textarea {
 }
 input.send_message {
     background: none repeat scroll 0 0 #EF4A4A;
-    color: #FFFFFF;
+    color: #656565;
     cursor: pointer;
     float: left;
     font-size: 12px;
@@ -1620,7 +1620,7 @@ fieldset h1 {
     font-size: 24px;
 }
 .contact-label-box {
-    color: #FFFFFF;
+    color: #FE3253;
     font-family: 'Open Sans', sans-serif; font-weight:300;
     font-size: 24px;
     line-height: 31px;
@@ -1650,7 +1650,7 @@ fieldset h1 {
     margin-bottom:10px;
     padding:10px;
     background:#000;
-    color: #fff;
+    color: #FE3253;
     text-align: left;
 }
 .btn-wrap{
@@ -1659,7 +1659,6 @@ fieldset h1 {
 .space-left{
     margin-left: 1%;
 }
-
 
 .alert{
     margin-top: 30px;
@@ -1736,6 +1735,10 @@ fieldset h1 {
     color: #FE3253;
 }
 
+.red-bg {
+    background-color: #FE3253;
+}
+
 .custom-width {
     width: 60%;
 }
@@ -1764,4 +1767,18 @@ fieldset h1 {
 .flex-center p {
     margin: 0;
     // padding: 20px;
+}
+
+.cp-touppercase {
+    text-transform: uppercase;
+}
+
+.btn-odin-red{
+    border:none;
+    background: #FE3253;
+    color: #FFF;
+}
+.btn-odin-red:hover{
+    background: #FFFFFF;
+    color: #FE3253;
 }

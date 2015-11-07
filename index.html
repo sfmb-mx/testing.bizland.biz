@@ -108,7 +108,7 @@
                                 </article>
                                 <article class="col-md-5">
                                     <ul class="foot-social">
-                                        <li><a href="https://www.facebook.com/communeproject" target="_blank"><img data-no-retina alt="Commune Facebook" title="Facebook" src="images/social/03.png" ></a></li>
+                                        <li><a href="https://www.facebook.com/communeproject" target="_blank"><img data-no-retina alt="Commune Facebook" title="Facebook" src="images/social/03.png"></a></li>
                                         <li><a href="https://twitter.com/CommuneProject" target="_blank"><img data-no-retina alt="Commune Twitter" title="Twitter" src="images/social/01.png" ></a></li>
                                         <li><a href="https://www.youtube.com/channel/UCuUAuOo-SSX0RL4a5EHk93g" target="_blank"><img data-no-retina alt="Commune Youtube" title="Youtube" src="images/social/05.png" ></a></li>
                                         <li><a href="https://instagram.com/communeproject" target="_blank"><img data-no-retina alt="Commune Instagram" title="instagram" src="images/social/06.png" ></a></li>
@@ -209,7 +209,6 @@
             <!-- masthead-section:ends -->
 
             <!-- 4 About section -->
-
             <section id="about" class="cp-about page inner-section featuress-expansion full-height parallax">
 
                 <div class="container valign">
@@ -324,63 +323,61 @@
             <!-- page-section : ends -->
 
             <!-- 7 Contact form -->
-            <section id="contact" class="contact page inner-section full-height">
+            <section id="contact" class="page inner-section featuress-expansion full-height">
 
                 <div class="container-fluid">
                     <div class="row">
 
                         <article class="text-center col-md-8 full-height white-bg">
                             <div class="valign">
-                                <div class="crest">
-                                    <h1 class="black">Reservations</h1>
-                                    <h3 class="black">Make a reservation now!</h3>
+                                <div class="row">
+                                    <div class="col-sm-3 text-right">
+                                        <img data-no-retina alt="Commune Contact" title="Contact" src="images/icons/service07.png">
+                                    </div>
+                                    <div class="col-sm-9 text-left">
+                                        <h1 class="black cp-touppercase">Contact Us</h1>
+                                    </div>
                                 </div>
-                                <div class="caps-link"><a class="red">TEST!</a></div>
-                            </div>
-                        </article>
 
-                        <article class="contact text-center col-md-4 full-height parallax">
-                        </article>
-
-                    </div>
-                </div>
-
-            </section>
-
-            <section id="contact-form" class="contact-form black-bg page-section">
-
-                <div class="container">
-                    <div class="row">
-                        <article class="col-md-8 col-md-offset-2 main-caps text-center">
-                            <div class="contact-item pad-common ">
-                                <div class="alert alert-error error " id="fname">
-                                    <p>Name must not be empty</p>
-                                </div>
-                                <div class="alert alert-error  error" id="fmail">
-                                    <p>Please provide a valid email</p>
-                                </div>
-                                <div class="alert alert-error  error" id="fmsg">
-                                    <p>Message should not be empty</p>
-                                </div>
-                                <form name="myform" id="contactForm" action="sendcontact.php" enctype="multipart/form-data" method="post">
-                                    <article>
-                                        <input type="text" placeholder="Your Name" id="name" name="name" size="100">
-                                    </article>
-                                    <article>
-                                        <input type="text" placeholder="Valid email ID" name="email" id="email" size="30">
-                                    </article>
-                                    <article>
-                                        <textarea placeholder="Your Message" name="message" cols="40" rows="3" id="msg"></textarea>
-                                        <div class="btn-wrap  text-center">
-                                            <button class="btn btn-odin btn-odin-color" id="submit" name="submit" type="submit">Send Message</button>
+                                <article class="col-md-8 col-md-offset-2 text-center">
+                                    <div class="contact-item">
+                                        <div class="alert alert-error error" id="fname">
+                                            <p>Name must not be empty</p>
                                         </div>
-                                    </article>
-                                </form>
+                                        <div class="alert alert-error  error" id="fmail">
+                                            <p>Please provide a valid email</p>
+                                        </div>
+                                        <div class="alert alert-error  error" id="fmsg">
+                                            <p>Message should not be empty</p>
+                                        </div>
+                                        <form name="myform" id="contactForm" action="sendcontact.php" enctype="multipart/form-data" method="post">
+                                            <article>
+                                                <input type="text" placeholder="Your Name" id="name" name="name" size="100">
+                                            </article>
+                                            <article>
+                                                <input type="text" placeholder="Valid email ID" name="email" id="email" size="30">
+                                            </article>
+                                            <article>
+                                                <textarea placeholder="Your Message" name="message" cols="40" rows="3" id="msg"></textarea>
+                                                <div class="btn-wrap  text-center">
+                                                    <button class="btn btn-odin btn-odin-red" id="submit" name="submit" type="submit">Send Message</button>
+                                                </div>
+                                            </article>
+                                        </form>
+                                    </div>
+                                </article>
+
                             </div>
                         </article>
+
+                        <article class="cp-reserve text-center col-md-4 full-height parallax">
+                        </article>
+
                     </div>
                 </div>
+
             </section>
+
 
             <!-- page-section : starts -->
             <footer id="mastfoot" class="mastfoot white-bg">
