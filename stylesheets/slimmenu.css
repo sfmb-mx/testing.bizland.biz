@@ -11,7 +11,7 @@
 
 .menu-collapser {
     position: relative;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.2);
     background-size: auto 40px;
     background-repeat: no-repeat;
     background-position: 10px center;
@@ -37,7 +37,7 @@
     top: 50%;
     width: 40px;
     background-repeat: repeat-x;
-    color: #FFFFFF;
+    color: #444;
     padding: 7px 10px;
     cursor: pointer;
     font-size: 14px;
@@ -54,7 +54,7 @@
 
 .collapse-button:hover, .collapse-button:focus {
     background-image: none;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: #FFFFFF;
 }
 
@@ -72,7 +72,7 @@ ul.slimmenu {
     margin: 0;
     padding: 0px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 ul.slimmenu li {
@@ -94,7 +94,7 @@ ul.slimmenu > li:last-child {
 }
 
 ul.slimmenu li a {
-    color: #FFF;
+    color: #444;
     display: block;
     font-size: 14px;
     font-weight: normal;

@@ -20,7 +20,9 @@ body
     overflow-x: hidden;
 }
 body{
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', 'Open Sans', sans-serif;
+    font-weight: 300;
+    // font-family: 'Open Sans', sans-serif; font-weight:300;
     /*overflow-x:hidden !important; */
 }
 
@@ -1781,4 +1783,48 @@ fieldset h1 {
 .btn-odin-red:hover{
     background: #FFFFFF;
     color: #FE3253;
+}
+
+.pad-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pad-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pad-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pad-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.cp-contact{
+    border: solid 1px #000000;
+    padding: 30px;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+}
+.cp-contact:hover{
+    border: solid 1px #FE3253;
+    padding: 30px;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
 }
