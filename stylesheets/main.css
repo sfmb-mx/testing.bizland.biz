@@ -59,7 +59,8 @@ p{
     font-size: 13px;
     line-height: 21px;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     font-weight: normal;
 }
@@ -1827,4 +1828,12 @@ fieldset h1 {
     -ms-transition: all .4s linear;
     -o-transition: all .4s linear;
     transition: all .4s linear;
+}
+.vcenter{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%);
 }
