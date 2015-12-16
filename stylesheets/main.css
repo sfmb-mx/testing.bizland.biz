@@ -389,10 +389,11 @@ div#preloader {
 .btn-odin-white{
     border:none;
     background: #fff;
-    color: #000;
+    color: #FE3253;
 }
 .btn-odin-white:hover{
-    color: #000;
+    background: #FE3253;
+    color: #FFF;
 }
 
 .btn-odin-dark{
@@ -1779,7 +1780,7 @@ fieldset h1 {
 .btn-odin-red{
     border:none;
     background: #FE3253;
-    color: #FFF;
+    color: #FFFFFF;
 }
 .btn-odin-red:hover{
     background: #FFFFFF;
@@ -1844,4 +1845,14 @@ fieldset h1 {
     background-color: rgba(0,0,0,0.3);
     margin-bottom: 10px;
     padding-bottom: 10px;
+}
+
+.btn-odin-white2{
+    border:none;
+    background: #fff;
+    color: #FE3253;
+}
+.btn-odin-white2:hover{
+    background: #FE3253;
+    color: #FFF;
 }
