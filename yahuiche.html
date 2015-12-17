@@ -58,73 +58,39 @@
     </head>
 
     <body>
-        <!-- Preloader -->
+        <!-- Preloader
+             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <div id="preloader">
             <div id="status"></div>
         </div>
 
-        <!-- 1 Navigation mobile -->
-
-        <!-- mobile only navigation : starts -->
-        <nav class="mobile-nav hidden-lg">
-            <ul class="slimmenu">
-                <li>
-                    <a class="#" href="index.html">home</a>
-                </li>
-                <li>
-                    <a class="scroll" href="#about">about</a>
-                </li>
-                <!-- <li> -->
-                <!--     <a class="scroll" href="#services">services</a> -->
-                <!-- </li> -->
-                <li>
-                    <a class="scroll" href="#portfolio">communities</a>
-                </li>
-                <li>
-                    <a class="scroll" href="#team">team</a>
-                </li>
-                <!-- <li> -->
-                <!--     <a class="scroll" href="#news">news</a> -->
-                <!-- </li> -->
-                <li>
-                    <a class="scroll" href="#contact">contact</a>
-                </li>
-            </ul>
+        <!-- Mobile only Navigation : starts -->
+        <nav class="menu" id="sm">
+            <div class="sm-wrap">
+                <a href="index.html"><img data-no-retina alt="odin" title="odin" class="logo" src="images/logo-white.png"/></a>
+                <i class="icon-remove menu-close"></i>
+                <a href="index.html">Go Back</a>
+            </div>
+            <!-- Navigation Trigger Button -->
+            <div id="sm-trigger" class="hidden-lg"></div>
         </nav>
-        <!-- mobile only navigation : ends -->
-
-        <!-- 2 Normal intro menu -->
+        <!-- Mobile only  Navigation : ends -->
 
         <!-- Master Wrap : starts -->
         <section id="mastwrap">
 
-            <section id="intro" class="intro trans-white-low">
+            <section class="white-bg">
 
                 <!-- masthead-section (this nav bar is visible only on home page) : starts -->
                 <header id="intro-header" class="intro-header visible-lg">
                     <div class="container">
                         <div class="row">
-                            <article class="col-md-5">
-                                <article class="col-md-7">
-                                    <img data-no-retina alt="Commune" title="Commune Project" class="main-logo" src="images/logo-white.png"/>
-                                </article>
-                                <article class="col-md-5">
-                                    <ul class="foot-social">
-                                        <li><a href="https://www.facebook.com/communeproject" target="_blank"><img data-no-retina alt="Commune Facebook" title="Facebook" src="images/social/03.png" ></a></li>
-                                        <li><a href="https://twitter.com/CommuneProject" target="_blank"><img data-no-retina alt="Commune Twitter" title="Twitter" src="images/social/01.png" ></a></li>
-                                        <li><a href="https://www.youtube.com/channel/UCuUAuOo-SSX0RL4a5EHk93g" target="_blank"><img data-no-retina alt="Commune Youtube" title="Youtube" src="images/social/05.png" ></a></li>
-                                        <li><a href="https://instagram.com/communeproject" target="_blank"><img data-no-retina alt="Commune Instagram" title="instagram" src="images/social/06.png" ></a></li>
-                                    </ul>
-                                </article>
+                            <article class="col-md-3 text-left">
+                                <img alt="odin" title="odin" class="main-logo img-responsive" src="images/logo-dark.png"/>
                             </article>
-                            <article class="col-md-7 text-right">
-                                <ul class="standard-nav  standard-nav-white-text visible-lg">
-                                    <li><a href="#about" class="scroll">About</a></li>
-                                    <!-- <li><a href="#services" class="scroll">Services</a></li> -->
-                                    <li><a href="#portfolio" class="scroll">Communities</a></li>
-                                    <li><a href="#team" class="scroll">Team</a></li>
-                                    <!-- <li><a href="#news" class="scroll">News</a></li> -->
-                                    <li><a href="#contact" class="scroll">Contact</a></li>
+                            <article class="col-md-9 text-right">
+                                <ul class="standard-nav  standard-nav-dark-text visible-lg">
+                                    <li><a href="index.html">Go Back</a></li>
                                 </ul>
                             </article>
                         </div>
@@ -132,76 +98,24 @@
                 </header>
                 <!-- masthead-section:ends -->
 
-                <!-- 2.1 carouesel intro -->
-
-                <div class="valign">
-
-                    <div id="intro-carousel" class="intro-carousel owl-carousel  owl-nav-sticky-wide">
-
-                        <div class="item stats-carousel-item hero-caps  text-center">
-                            <h1 class="yellow">Commune</h1>
-                            <h6 class="white">Mexico</h6>
-                        </div>
-                        <!-- item:ends -->
-
-                        <div class="item stats-carousel-item hero-caps  text-center">
-                            <h1 class="yellow">Travel</h1>
-                            <h6 class="white">Commune Project</h6>
-                        </div>
-                        <!-- item:ends -->
-
-                        <div class="item stats-carousel-item hero-caps  text-center">
-                            <h1 class="yellow">Transform</h1>
-                            <h6 class="white">Commune Project</h6>
-                        </div>
-                        <!-- item:ends -->
-
-                    </div>
-                    <!-- carousel:ends -->
-
-
+                <div class="white-bg project-page-caps text-center">
+                    <h2 class="dark pad-top-half">Project Title</h2>
+                    <h3 class="dark"><span>web / brand</span></h3>
                 </div>
-                <!-- valign:ends -->
-
-                <a  class="scroll" href="#about" >
-                    <div class="mouse-icon white hidden-xs" style="opacity: 1;">
-                        <div class="wheel"></div>
-                    </div>
-                </a>
 
             </section>
-
-            <!-- 3 Normal inner navigation -->
 
             <!-- masthead-section (this nav bar is initially hidden but will be visible only on inner pages) : starts -->
             <header id="standard-header" class="standard-header">
 
                 <div class="container">
                     <div class="row">
-                        <article class="col-md-5">
-
-                            <article class="col-md-7">
-                                <a href="#intro" class="scroll highlighted" id="intro-linker"><img data-no-retina alt="Commune" title="Commune Project" class="main-logo" src="images/logo-white.png"/></a>
-                            </article>
-                            <article class="col-md-5">
-                                <ul class="foot-social">
-                                    <li><a href="https://www.facebook.com/communeproject" target="_blank"><img data-no-retina alt="Commune Facebook" title="Facebook" src="images/social/03.png" ></a></li>
-                                    <li><a href="https://twitter.com/CommuneProject" target="_blank"><img data-no-retina alt="Commune Twitter" title="Twitter" src="images/social/01.png" ></a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCuUAuOo-SSX0RL4a5EHk93g" target="_blank"><img data-no-retina alt="Commune Youtube" title="Youtube" src="images/social/05.png" ></a></li>
-                                    <li><a href="https://instagram.com/communeproject" target="_blank"><img data-no-retina alt="Commune Instagram" title="instagram" src="images/social/06.png" ></a></li>
-                                </ul>
-                            </article>
+                        <article class="col-md-3 text-left">
+                            <img alt="odin" title="odin" class="main-logo img-responsive" src="images/logo-dark.png"/>
                         </article>
-
-                        <article class="col-md-7 text-right">
-                            <ul class="standard-nav standard-nav-white-text visible-lg">
-                                <!-- <li><a href="#intro" class="scroll highlighted" id="intro-linker">Home</a></li> -->
-                                <li><a href="#about" class="scroll" id="about-linker">About</a></li>
-                                <!-- <li><a href="#services" class="scroll" id="services-linker">Services</a></li> -->
-                                <li><a href="#portfolio" class="scroll" id="portfolio-linker">Communities</a></li>
-                                <li><a href="#team" class="scroll" id="team-linker">Team</a></li>
-                                <!-- <li><a href="#news" id="news-linker">News</a></li> -->
-                                <li><a href="#contact" class="scroll" id="contact-linker">Contact</a></li>
+                        <article class="col-md-9 text-right">
+                            <ul class="standard-nav standard-nav-dark-text visible-lg">
+                                <li><a href="index.html" class="highlighted" id="intro-linker">Go Back</a></li>
                             </ul>
                         </article>
                     </div>
@@ -210,351 +124,136 @@
             </header>
             <!-- masthead-section:ends -->
 
-            <!-- 4 About section -->
+            <!-- inner-section : starts -->
+            <section id="project-page-carousel-wrap" class="inner-section project-page-carousel-wrap white-bg">
 
-            <section id="about" class="cp-about page inner-section featuress-expansion full-height parallax">
+                <div class="container">
 
-                <div class="container valign">
+                    <!-- thumb-carousel : starts -->
+                    <div id="project-page-carousel" class="owl-carousel">
 
-                    <div class="row">
-                        <article class="col-md-12 text-center">
-                            <img data-no-retina alt="Commune" title="Commune Project" class="main-logo" src="images/icons/service05.png"/>
-                        </article>
+                        <div class="item">
+                            <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/bg/04.jpg"/>
+                        </div>
+                        <div class="item">
+                            <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/bg/02.jpg"/>
+                        </div>
+                        <div class="item">
+                            <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/bg/03.jpg"/>
+                        </div>
                     </div>
-
-                    <div class="row">
-                        <article class="col-md-10 col-md-offset-4 text-right">
-                            <h3 class="white animated" data-fx="fadeInUp"><span>About</span></h3>
-                            <div class="liner color-bg"></div>
-                            <div>
-                                <p class="white animated pad-sm" data-fx="fadeInUp">
-                                    Commune is a community tourism program that allows you to broaden your travel routes and help to make a difference. Meet local rural and indigenous families first hand, take part of their traditions, try local comfort food and truly walk the road less traveled. With each activity, to help to bring sustainable economical development to communities off the beaten path.
-                                </p>
-                                <h3 class="white animated hidden-sm hidden-xs pad-sm" data-fx="fadeInUp">Here is how works</h3>
-                                <p class="white animated hidden-sm hidden-xs pad-sm" data-fx="fadeInUp">
-                                    We map communities in underdeveloped rural areas close to traditional tourist destinations and give them training and counseling to host guests and offer touristic services. Once that is done, we upload them in our online booking platform by creating a complete profile. Through the website, you can then filter and search for the accommodations that best suit your needs, and book your stay. When you stay with a community, you can also book alternative tours, order local comfort food and participate in to supporting the community's structural and economical development.
-                                </p>
-                                <h4 class="white animated pad-sm" data-fx="fadeInUp">It is that simple! You travel, you transform.</h4>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="row col-md-6 col-md-offset-3 pad-sm">
-                        <article class="embed-responsive embed-responsive-16by9 video-container">
-                            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/1S7L4q-hspM" frameborder="0" allowfullscreen></iframe>
-                        </article>
-                    </div>
+                    <!-- thumb-carousel : ends -->
 
                 </div>
-
             </section>
-
-            <!-- 5 Communities section -->
-
-            <section id="portfolio" class="cp-communities page inner-section featuress-expansion full-height parallax">
-
-                <section class="container valign clearfix">
-
-                    <div class="row">
-                        <article class="col-md-12 text-center">
-                            <img data-no-retina alt="Commune" title="Communities" class="main-logo" src="images/icons/service06.png"/>
-                        </article>
-                    </div>
-
-                    <section class="inner-section promo-text">
-                        <div class="container">
-                            <div class="row">
-                                <article class="col-md-8 col-md-offset-2 text-center animated" data-fx="fadeInUp">
-                                    <h3 class="white"><span>Communities</span></h3>
-                                    <div class="liner color-bg"></div>
-                                    <p class="yellow">Travel & Transform.</p>
-                                </article>
-                            </div>
-                        </div>
-                    </section>
-
-                    <article class="aboutyahuiche media">
-                        <!-- <h2 class="white"><span>Communities</span></h2> -->
-                        <a class="pull-left" href="#"><img data-no-retina alt="Yahuiche" title="Yahuiche_Oaxaca" src="images/portfolio_thumbs/c01.jpg" class="img-thumbnail"></a>
-                        <div class="media-body flex-center">
-                            <p class="white animated" data-fx="fadeInUp">
-                                Tucked away in the high woods of Sierra Juárez, Yahuiche is more than mind blowing mountain views and day-long treks following century old...
-                            </p>
-                        </div>
-                    </article>
-
-                    <article class="aboutminas media">
-                        <a class="pull-left" href="#"><img data-no-retina alt="Santa Catarina Minas" title="Santa Catarina Minas" src="images/portfolio_thumbs/c02.jpg" class="img-thumbnail"></a>
-                        <div class="media-body flex-center">
-                            <p class="white animated" data-fx="fadeInUp">
-                                Visit the "Cradle of Mezcal" in the Oaxacan Central Valleys, at the foot of the breathtaking landscapes carved by the valleys.
-                            </p>
-                            <p class="white animated hidden-xs hidden-sm" data-fx="fadeInUp">
-                                And allow your self to be surprised not only by the high quality of the "minero" but by the many ways this captivating population has fought economical hardship through innovative harvesting and construction projects.
-                            </p>
-                        </div>
-                    </article>
-
-                </section>
-
-            </section>
-
-            <!-- %%%%%%%%%%%% -->
-            <!-- page-section : starts -->
-            <section id="team" class="page team page-section remove-pad-bottom white-bg">
+            <!-- inner-section : ends -->
 
 
-                <!-- inner-section:starts -->
-                <section class="inner-section promo-text">
-                    <div class="container">
+
+
+
+
+
+            <section id="about" class="page about remove-pad-top white-bg">
+
+                <div class="container pad-top-half">
+
+                    <div class="item about-carousel-item">
                         <div class="row">
-                            <article class="col-md-8 col-md-offset-2 text-center animated" data-fx="fadeInDown">
-                                <h3 class="dark"><span>The Team</span></h3>
+                            <article class="col-md-8 col-md-offset-2 main-caps text-center">
+                                <h3 class="grey">project highlight text goes here like this</h3>
                                 <div class="liner color-bg"></div>
-                                <p class="grey">Odin is a ditial interactive studio from Amsterdam.</p>
-                            </article>
-                        </div>
-                    </div>
-                </section>
-                <!-- inner-section:ends -->
-
-                <!-- inner-section:starts -->
-                <section class="inner-section team-wrap add-top-half pad-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <article class="col-md-12 text-left">
-                                <!-- carouesel:starts -->
-                                <div id="team-carousel" class="team-carousel owl-carousel owl-nav-sticky-extra-wide owl-theme">
-
-                                    <!-- item:starts -->
-                                    <div class="item team-carousel-item team-stage">
-                                        <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/team/04.jpg"/>
-                                        <h3 class="dark">Luis Heinz</h3>
-                                        <h6><span>Founder / Director</span></h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                    </div>
-                                    <!-- item:ends -->
-
-
-                                    <!-- item:starts -->
-                                    <div class="item team-carousel-item team-stage">
-                                        <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/team/05.jpg"/>
-                                        <h3 class="dark">Joana Drew</h3>
-                                        <h6><span>General Manager</span></h6>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                    </div>
-                                    <!-- item:ends -->
-
-
-                                    <!-- item:starts -->
-                                    <div class="item team-carousel-item team-stage">
-                                        <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/team/06.jpg"/>
-                                        <h3 class="dark">Sam Nell</h3>
-                                        <h6><span>Senior Designer</span></h6>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                    </div>
-                                    <!-- item:ends -->
-
-
-                                    <!-- item:starts -->
-                                    <div class="item team-carousel-item team-stage">
-                                        <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/team/01.jpg"/>
-                                        <h3 class="dark">Gian Loft</h3>
-                                        <h6><span>Web Developer</span></h6>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                    </div>
-                                    <!-- item:ends -->
-
-
-                                    <!-- item:starts -->
-                                    <div class="item team-carousel-item team-stage">
-                                        <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/team/02.jpg"/>
-                                        <h3 class="dark">Amy Lee</h3>
-                                        <h6><span>Web Architect</span></h6>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                    </div>
-                                    <!-- item:ends -->
-
-
-                                    <!-- item:starts -->
-                                    <div class="item team-carousel-item team-stage">
-                                        <img data-no-retina alt="odin" title="odin" class="img-responsive" src="images/team/03.jpg"/>
-                                        <h3 class="dark">Juan Igor</h3>
-                                        <h6><span>Marketing Guy</span></h6>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                                    </div>
-                                    <!-- item:ends -->
-
-
-
-
+                                <h6 class="dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at malesuada mauris. Curabitur ut nisi efficitur, eleifend quam eu, fermentum turpis. Praesent volutpat cursus ornare. Aliquam luctus nisl quis sapien tristique, scelerisque consequat magna condimentum. Nunc nec dui quis est sollicitudin ornare. Mauris justo libero, dapibus vitae massa quis, posuere euismod quam. Donec sed orci augue. Morbi cursus risus sed sollicitudin varius. Duis eu volutpat. </h6>
+                                <div class="welcome-button">
+                                    <a class="btn btn-odin btn-odin-color" href="single-project.html#">Live Preview</a>
                                 </div>
-                                <!-- carouesel:ends -->
+
                             </article>
                         </div>
                     </div>
-                </section>
-                <!-- inner-section:ends -->
+                    <!-- item:ends -->
 
 
-            </section>
-            <!-- page-section : ends -->
 
-            <!-- page-section : starts -->
-            <section id="news" class="page news page-section remove-pad-bottom silver-bg">
-
-
-                <!-- inner-section:starts -->
-                <section class="inner-section promo-text">
-                    <div class="container">
-                        <div class="row">
-                            <article class="col-md-8 col-md-offset-2 text-center animated" data-fx="fadeInDown">
-                                <h3 class="dark"><span>The News</span></h3>
-                                <div class="liner color-bg"></div>
-                                <p class="dark">Odin is a ditial interactive studio from Amsterdam.</p>
-                            </article>
-                        </div>
-                    </div>
-                </section>
-                <!-- inner-section:ends -->
-
-                <!-- inner-section:starts -->
-                <section class="inner-section team-wrap add-top-half pad-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <article class="col-md-6 text-left">
-                                <a href="post.html">
-                                    <div class="news-post white-bg text-left">
-                                        <h6 class="dark">12 March, 2015</h6>
-                                        <div class="liner color-bg"></div>
-                                        <h3 class="dark">A simple news title goes here like this in two or more lines</h3>
-                                    </div>
-                                </a>
-                            </article>
-                            <article class="col-md-6 text-left">
-                                <a href="post.html">
-                                    <div class="news-post white-bg text-left">
-                                        <h6 class="dark">12 March, 2015</h6>
-                                        <div class="liner color-bg"></div>
-                                        <h3 class="dark">A simple news title goes here like this in two or more lines</h3>
-                                    </div>
-                                </a>
-                            </article>
-                        </div>
-                        <div class="row add-top-quarter">
-                            <article class="col-md-6 text-left">
-                                <a href="post.html">
-                                    <div class="news-post white-bg text-left">
-                                        <h6 class="dark">12 March, 2015</h6>
-                                        <div class="liner color-bg"></div>
-                                        <h3 class="dark">A simple news title goes here like this in two or more lines</h3>
-                                    </div>
-                                </a>
-                            </article>
-                            <article class="col-md-6 text-left">
-                                <a href="post.html">
-                                    <div class="news-post white-bg text-left">
-                                        <h6 class="dark">12 March, 2015</h6>
-                                        <div class="liner color-bg"></div>
-                                        <h3 class="dark">A simple news title goes here like this in two or more lines</h3>
-                                    </div>
-                                </a>
-                            </article>
-                        </div>
-                    </div>
-                </section>
-                <!-- inner-section:ends -->
-
-
-            </section>
-            <!-- page-section : ends -->
-
-            <section id="contact" class="contact page intermediate-section full-height parallax">
-
-                <div class="container valign">
-                    <div class="row">
-                        <article class="col-md-8 col-md-offset-2 main-caps text-center">
-                            <h3 class="white animated" data-fx="fadeInUp"><span>Say Hello</span></h3>
-                            <div class="liner color-bg"></div>
-                            <h4 class="white animated" data-fx="fadeInUp">hello@odin.tld</h4>
-                            <p class="white animated" data-fx="fadeInUp">Odin Inc, 22 Heinzenweil, Berlin, Germany</p>
-                        </article>
-                    </div>
                 </div>
 
+
             </section>
 
-            <section id="contact-form" class="contact-form black-bg page-section">
+
+
+
+
+            <div class="promo-section intermediate-section action-text parallax">
 
                 <div class="container">
                     <div class="row">
-                        <article class="col-md-8 col-md-offset-2 main-caps text-center">
-                            <div class="contact-item pad-common ">
-                                <div class="alert alert-error error " id="fname">
-                                    <p>Name must not be empty</p>
-                                </div>
-                                <div class="alert alert-error  error" id="fmail">
-                                    <p>Please provide a valid email</p>
-                                </div>
-                                <div class="alert alert-error  error" id="fmsg">
-                                    <p>Message should not be empty</p>
-                                </div>
-                                <form name="myform" id="contactForm" action="sendcontact.php" enctype="multipart/form-data" method="post">
-                                    <article>
-                                        <input type="text" placeholder="Your Name" id="name" name="name" size="100">
-                                    </article>
-                                    <article>
-                                        <input type="text" placeholder="Valid email ID" name="email" id="email" size="30">
-                                    </article>
-                                    <article>
-                                        <textarea placeholder="Your Message" name="message" cols="40" rows="3" id="msg"></textarea>
-                                        <div class="btn-wrap  text-center">
-                                            <button class="btn btn-odin btn-odin-color" id="submit" name="submit" type="submit">Send Message</button>
-                                        </div>
-                                    </article>
-                                </form>
+                        <article class="col-md-12 text-center">
+                            <h1><span class="color">1438</span></h1>
+                            <h2><span class="white">Amazing Projects Served So Far</span></h2>
+                            <div class="welcome-button">
+                                <a class="btn btn-odin btn-odin-color" href="single-project.html#">Explore All</a>
                             </div>
                         </article>
                     </div>
                 </div>
-            </section>
 
-            <!-- page-section : starts -->
-            <footer id="mastfoot" class="mastfoot white-bg">
+            </div>
 
-                <!-- inner-section:starts -->
-                <section class="inner-section foot-top">
-                    <div class="container">
-                        <div class="row">
-                            <article class="col-md-12 text-center">
-                                <ul class="foot-social">
-                                    <li><a href="#"><img data-no-retina alt="odin" title="odin" src="images/social/01.png" ></a></li>
-                                    <li><a href="#"><img data-no-retina alt="odin" title="odin" src="images/social/02.png" ></a></li>
-                                    <li><a href="#"><img data-no-retina alt="odin" title="odin" src="images/social/03.png" ></a></li>
-                                    <li><a href="#"><img data-no-retina alt="odin" title="odin" src="images/social/04.png" ></a></li>
-                                </ul>
-                            </article>
-                        </div>
-                        <div class="row">
-                            <article class="col-md-12 text-center foot-logos">
-                                <p class="credits">A premium template by Designova. Copyright &copy; 2015</p>
-                            </article>
-                        </div>
+
+
+
+
+        </section>
+        <!-- page-section : ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- page-section : starts -->
+        <footer id="mastfoot" class="mastfoot white-bg">
+
+
+
+
+            <!-- inner-section:starts -->
+            <section class="inner-section foot-top">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-md-12 text-center">
+                            <ul class="foot-social">
+                                <li><a href="single-project.html#"><img data-no-retina alt="odin" title="odin" src="images/social/01.png" ></a></li>
+                                <li><a href="single-project.html#"><img data-no-retina alt="odin" title="odin" src="images/social/02.png" ></a></li>
+                                <li><a href="single-project.html#"><img data-no-retina alt="odin" title="odin" src="images/social/03.png" ></a></li>
+                                <li><a href="single-project.html#"><img data-no-retina alt="odin" title="odin" src="images/social/04.png" ></a></li>
+                            </ul>
+                        </article>
                     </div>
-                </section>
-                <!-- inner-section:ends -->
+                    <div class="row">
+                        <article class="col-md-12 text-center foot-logos">
+                            <p class="credits">A premium template by Designova. Copyright &copy; 2015</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- inner-section:ends -->
 
-            </footer>
+        </footer>
 
 
 
         </section>
         <!-- Master Wrap : ends -->
+
+
 
         <!-- Core JS Libraries -->
         <script src="javascripts/libs/common.js"></script>
@@ -563,13 +262,7 @@
         <script src="javascripts/custom/custom-init.js" ></script>
         <script src="javascripts/custom/main.js" ></script>
 
-        <script>
-         $.backstretch([
-             "images/bg/01.jpg"
-             , "images/bg/02.jpg"
-             , "images/bg/03.jpg"
-         ], {duration: 3000, fade: 750});
-        </script>
+
 
     </body>
 </html>
