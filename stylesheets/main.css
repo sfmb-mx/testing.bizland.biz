@@ -1856,3 +1856,12 @@ fieldset h1 {
     background: #FE3253;
     color: #FFF;
 }
+
+.vcontact{
+    position: relative;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
