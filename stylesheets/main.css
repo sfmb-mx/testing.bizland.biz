@@ -53,6 +53,7 @@ a:focus {
     display: block;
     display: inline-block;
 }
+
 p{
     color: #777;
     font-family: 'Conv_HelveticaNeue', 'Open Sans', sans-serif; font-weight:300;
@@ -1873,4 +1874,31 @@ fieldset h1 {
     padding-bottom: 15px;
     margin-top:     4px;
     padding-top:    4px;
+}
+
+.small{
+    font-family: 'Conv_HelveticaNeue', 'Open Sans', sans-serif; font-weight:300;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.btn-odin-small{
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-family: 'Conv_HelveticaNeue', 'Montserrat', sans-serif; font-weight:400;
+    letter-spacing: 2px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.right{
+    position: absolute;
+    right: 0px;
 }
