@@ -17,19 +17,25 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#tButton4").click(function(){
-        $("#tText4").toggle(400);
+    $("#mButton1").click(function(){
+        $("#mText1").toggle(400);
     });
 });
 
 $(document).ready(function(){
-    $("#tButton5").click(function(){
-        $("#tText5").toggle(400);
+    $("#mButton2").click(function(){
+        $("#mText2").toggle(400);
     });
 });
 
 $(document).ready(function(){
-    $("#tButton6").click(function(){
-        $("#tText6").toggle(400);
+    $("#mButton3").click(function(){
+        $("#mText3").toggle(400);
+    });
+});
+
+$(document).ready(function(){
+    $("#mButton4").click(function(){
+        $("#mText4").toggle(400);
     });
 });
