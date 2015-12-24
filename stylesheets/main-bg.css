@@ -44,6 +44,10 @@
     background-image: url('../images/bg/004.jpg');
 }
 
+.cp-minas{
+    background-image: url('../images/bg/006.jpg');
+}
+
 /*Mobile Menu Logo*/
 .menu-collapser {
     padding-top: 100px;
