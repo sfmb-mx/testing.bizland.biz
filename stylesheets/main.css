@@ -20,9 +20,9 @@ body
     overflow-x: hidden;
 }
 body{
-    font-family: 'Open Sans', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-family: Open Sans, Helvetica, Arial, 'Lucida Grande', sans-serif;
     font-weight: 300;
-    // font-family: 'Open Sans', sans-serif; font-weight:300;
+    // font-family: Open Sans, sans-serif; font-weight:300;
     /*overflow-x:hidden !important; */
 }
 
@@ -57,7 +57,7 @@ a:focus {
 
 p{
     color: #777;
-    font-family: 'Open Sans', sans-serif; font-weight:400;
+    font-family: Open Sans, sans-serif; font-weight:400;
     font-size: 14px;
     line-height: 21px;
 }
@@ -570,7 +570,7 @@ div#preloader {
     font-weight: normal;
 }
 .main-caps > p{
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     font-size: 14px;
     line-height:21px;
 }
@@ -719,7 +719,7 @@ div#preloader {
     padding: 40px 100px;
 }
 .features-details p {
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 21px;
@@ -819,7 +819,7 @@ div#preloader {
 .service-name-wrap  a > span{
     margin-top: 5px;
     display: block;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     font-size: 14px;
     line-height: 21px;
     text-transform: lowercase;
@@ -830,12 +830,12 @@ div#preloader {
     padding-top: 30px;
 }
 .service-details h5{
-    font-family: 'Open Sans', sans-serif; font-weight:700;
+    font-family: Open Sans, sans-serif; font-weight:700;
     font-size: 22px;
     line-height:29px;
 }
 .service-details p{
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     font-size: 14px;
     line-height:21px;
 }
@@ -1045,7 +1045,7 @@ div#portfolio_thumbs ul li div.item_info p > span{
     color: #fff;
     font-size: 14px;
     line-height: 21px;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
 }
 .add-space-min{
     margin-top: 20px;
@@ -1101,7 +1101,7 @@ div#portfolio_thumbs ul li div.item_info p > span{
     font-size: 14px;
     line-height: 21px;
     color: #777;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
 }
 .project-tags{
     padding: 0;
@@ -1113,7 +1113,7 @@ div#portfolio_thumbs ul li div.item_info p > span{
     color: #aaa;
 }
 .project-tags li{
-    font-family: 'Open Sans', sans-serif; font-weight:400;
+    font-family: Open Sans, sans-serif; font-weight:400;
     margin-bottom:10px;
     font-size: 14px;
     line-height:21px;
@@ -1400,7 +1400,7 @@ div#portfolio_thumbs ul li a:hover{
     margin-top: 20px;
 }
 .team-stage p{
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     font-size: 14px;
     line-height:21px;
 }
@@ -1456,7 +1456,7 @@ div#portfolio_thumbs ul li a:hover{
 
 .testimonial-wrap > p > span > i{
     font-style: normal;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     font-size: 12px;
     letter-spacing: 0px;
     line-height: 19px;
@@ -1538,7 +1538,7 @@ div#portfolio_thumbs ul li a:hover{
 .contact-mail{
     font-size: 18px;
     line-height: 25px;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     color: #000;
 }
 .contact-form-wrap{
@@ -1553,7 +1553,7 @@ input {
     border-radius: 0px !important;
     box-shadow: none !important;
     color: #656565 !important;
-    font-family: 'Open Sans', sans-serif !important; font-weight:300 !important;
+    font-family: Open Sans, sans-serif !important; font-weight:300 !important;
     height: 50px !important;
     font-size: 14px !important;
     line-height: 21px !important;
@@ -1585,7 +1585,7 @@ textarea {
     border-radius: 0px !important;
     box-shadow: none !important;
     color: #656565 !important;
-    font-family: 'Open Sans', sans-serif !important; font-weight:300 !important;
+    font-family: Open Sans, sans-serif !important; font-weight:300 !important;
     font-size: 14px !important;
     line-height: 21px !important;
     margin-top: 0;
@@ -1627,7 +1627,7 @@ fieldset h1 {
 }
 .contact-label-box {
     color: #FE3253;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     font-size: 24px;
     line-height: 31px;
     padding: 30px 20px;
@@ -1652,7 +1652,7 @@ fieldset h1 {
     text-shadow:none;
     font-size: 12px;
     line-height: 19px;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     margin-bottom:10px;
     padding:10px;
     background:#000;
@@ -1680,7 +1680,7 @@ fieldset h1 {
     text-shadow:none;
     font-size: 14px;
     line-height: 21px;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
 }
 
 /*FOOTER*/
@@ -1697,7 +1697,7 @@ fieldset h1 {
     margin-top: 10px;
     font-size: 12px;
     line-height: 19px;
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
 
 }
 .social-wrap{
@@ -1885,7 +1885,7 @@ fieldset h1 {
 }
 
 .small{
-    font-family: 'Open Sans', sans-serif; font-weight:300;
+    font-family: Open Sans, sans-serif; font-weight:300;
     font-size: 12px;
     line-height: 14px;
 }
@@ -1978,7 +1978,7 @@ fieldset h1 {
     color: rgba(255,255,255,1);
     text-decoration: none;
     background-color: rgba(99, 160, 73, 1);
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-weight: 500;
     font-size: 2em;
     display: block;
@@ -2014,7 +2014,7 @@ fieldset h1 {
 .p-blue {
     margin-top: 10px;
     /* letter-spacing: 8px; */
-    font-family: 'Open Sans', sans-serif; font-weight:200;
+    font-family: Open Sans, sans-serif; font-weight:200;
     /* text-transform: uppercase; */
     color: #026BAC;
     font-size: 11px;
