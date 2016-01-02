@@ -60,8 +60,7 @@
 /*Large Widescreen Laptops*/
 @media (max-width: 1440px) {
     .container, .features-details {
-        /* max-width: 960px; */
-        max-width: 1024px;
+        max-width: 960px;
     }
     div#portfolio_thumbs ul li{
         width: 25%;

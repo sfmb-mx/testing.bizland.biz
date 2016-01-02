@@ -28,6 +28,9 @@
         <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
+        <!-- Main Template Responsive Styles -->
+        <link href="stylesheets/main-responsive.css" rel="stylesheet">
+
         <!-- Bootstrap CSS Files -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
@@ -49,8 +52,7 @@
         <link href="stylesheets/main.css" rel="stylesheet">
         <!-- Main Template BG Images -->
         <link href="stylesheets/main-bg.css" rel="stylesheet">
-        <!-- Main Template Responsive Styles -->
-        <link href="stylesheets/main-responsive.css" rel="stylesheet">
+
         <!-- Main Template Retina Optimizaton Rules -->
         <link href="stylesheets/main-retina.css" rel="stylesheet">
         <!-- LESS stylesheet for managing color presets -->
@@ -61,7 +63,7 @@
         <link href='http://fonts.googleapis.com/css?family=Jura:400,500,600%7CPlay:400,700%7CRaleway:400,300,700,900%7COpen+Sans:400,300,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
     </head>
 
-    <body>
+    <body class="gl-background">
         <!-- Preloader -->
         <div id="preloader">
             <div id="status"></div>
@@ -74,18 +76,31 @@
             <section id="gbsHeader">
 
                 <div class="container-fluid header-bg pad-20">
-                    <article class="col-md-12 text-center">
-                        <div class="col-md-4">
+                    <article class="col-md-10 col-md-offset-1 text-center">
+                        <div class="col-md-4 hidden-sm hidden-xs">
+                            <h1 class="lg-dark project-title text-right">GrayBeardSoftware</h1>
+                        </div>
+
+                        <div class="col-md-4 hidden-sm hidden-xs">
+                            <h4 class="brown pad-10 text-center">COM, COM+, OLE, and ActiveX</h4>
+                        </div>
+
+                        <div class="col-md-4 hidden-sm hidden-xs">
+                            <h4 class="white capitalize pad-10 text-left">Call Now! <span class="green"> 978 356 6377</span><span class="green" style="font-size:12px;"> (US)</span></h4>
+                        </div>
+
+                        <div class="col-md-4 hidden-lg hidden-md">
                             <h1 class="lg-dark project-title">GrayBeardSoftware</h1>
                         </div>
 
-                        <div class="col-md-4">
-                            <h3 class="brown pad-10">COM, COM+, OLE, and ActiveX</h3>
+                        <div class="col-md-4 hidden-lg hidden-md">
+                            <h4 class="brown pad-10">COM, COM+, OLE, and ActiveX</h4>
                         </div>
 
-                        <div class="col-md-4">
-                            <h3 class="white capitalize pad-10">Call Now! <span class="green"> 978 356 6377</span><span class="green" style="font-size:12px;"> (US)</span></h3>
+                        <div class="col-md-4 hidden-lg hidden-md">
+                            <h4 class="white capitalize pad-10">Call Now! <span class="green"> 978 356 6377</span><span class="green" style="font-size:12px;"> (US)</span></h4>
                         </div>
+
                     </article>
                 </div>
 
@@ -98,25 +113,25 @@
                         <div class="hidden-sm hidden-xs" style="height:40px;"></div>
                         <article class="col-md-3 animated transparent-container" data-fx="fadeInUp">
 
-                            <div class="col-md-10">
+                            <div class="col-md-10 col-sm-offset-1">
                                 <h4 class="dark text-left p-blue to-uppercase">
-                                    Books by David Flatt:
+                                    Books by David Platt:
                                 </h4>
 
                                 <div class="animated text-center" data-fx="fadeInUp">
-                                    <a href="http://www.amazon.com/Essence-COM-ActiveX-Programmers-Workbook/dp/0130799890/" target="_blank"><img data-no-retina alt="The Essence of COM with ActiveX" title="The Essence of COM with ActiveX" src="images/01.jpg"></a>
+                                    <a href="http://www.amazon.com/Essence-COM-ActiveX-Programmers-Workbook/dp/0130799890/" target="_blank"><img class="img-shadow" data-no-retina alt="The Essence of COM with ActiveX" title="The Essence of COM with ActiveX" src="images/01.jpg"></a>
                                     <p class="text-left p-blue">The Essence of COM with ActiveX</p>
                                     <p class="text-right p-blue small-link"><a href="http://www.amazon.com/Essence-COM-ActiveX-Programmers-Workbook/dp/0130799890/">Buy on Amazon</a></p>
                                 </div>
 
                                 <div class="animated text-center pad-20" data-fx="fadeInUp">
-                                    <a href="http://www.amazon.com/Understanding-Developer-Technology-David-Platt/dp/0735606668/" target="_blank"><img data-no-retina alt="Understanding COM+" title="Understanding COM+" src="images/02.jpg"></a>
+                                    <a href="http://www.amazon.com/Understanding-Developer-Technology-David-Platt/dp/0735606668/" target="_blank"><img class="img-shadow" data-no-retina alt="Understanding COM+" title="Understanding COM+" src="images/02.jpg"></a>
                                     <p class="text-left p-blue">Understanding COM+</p>
                                     <p class="text-right p-blue small-link"><a href="http://www.amazon.com/Understanding-Developer-Technology-David-Platt/dp/0735606668/">Buy on Amazon</a></p>
                                 </div>
 
                                 <div class="animated text-center pad-20" data-fx="fadeInUp">
-                                    <a href="http://www.amazon.com/Introducing-Microsoft%C2%AE-Pro-Developer-David-Platt/dp/0735619182/" target="_blank"><img data-no-retina alt="Introducing Microsoft .NET" title="Introducing Microsoft .NET" src="images/03.jpg"></a>
+                                    <a href="http://www.amazon.com/Introducing-Microsoft%C2%AE-Pro-Developer-David-Platt/dp/0735619182/" target="_blank"><img class="img-shadow" data-no-retina alt="Introducing Microsoft .NET" title="Introducing Microsoft .NET" src="images/03.jpg"></a>
                                     <p class="text-left p-blue">Introducing Microsoft .NET</p>
                                     <p class="text-right p-blue small-link"><a href="http://www.amazon.com/Introducing-Microsoft%C2%AE-Pro-Developer-David-Platt/dp/0735619182/">Buy on Amazon</a></p>
                                 </div>
@@ -143,7 +158,7 @@
                             </p>
 
                             <p class="pad">
-                                <b>I can help you</b>. I am one of the world’s foremost experts on COM, COM+, OLE, and ActiveX. I’ve written books on them, which you can see at the left. I’ve written many articles on these technologies in MSDN Magazine and its predecessor Microsoft Systems Journal, such as this one and this one on using COM with multiple threads. I’ve also taught them at Harvard University Extension School.
+                                <b>I can help you</b>. I am one of the world’s foremost experts on COM, COM+, OLE, and ActiveX. I’ve written books on them, which you can see at the left. I’ve written many articles on these technologies in MSDN Magazine and its predecessor Microsoft Systems Journal, such as  <a class="dark" href="https://www.microsoft.com/msj/0297/apartment/apartment.aspx" target="_blank">this one</a> and <a class="dark" href="https://www.microsoft.com/msj/0897/free.aspx" target="_blank">this one</a> on using COM with multiple threads. I’ve also taught them at Harvard University Extension School.
                             </p>
 
                             <p class="pad">
@@ -156,7 +171,7 @@
 
                         </article>
 
-                        <article class="col-md-3 animated pad-40 transparent-container" data-fx="fadeInUp">
+                        <article class="col-md-3 animated pad-40 transparent-container-rev" data-fx="fadeInUp">
                             <div class="text-center pad-20 col-md-12">
                                 <img data-no-retina alt="David Platt" title="Software Legend GrayBeard" src="images/author.jpg">
                                 <div style="height:20px;"></div>
@@ -170,6 +185,7 @@
                                 <div class="text-center pad-40">
                                     <img data-no-retina alt="Keep calm and carry on" title="Keep calm and carry on" src="images/kcnco.png">
                                 </div>
+                                <div class="hidden-sm hidden-xs" style="height:94px;"></div>
                             </div>
                         </article>
 
