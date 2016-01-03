@@ -2080,23 +2080,22 @@ fieldset h1 {
     color:#ffffff;
     display:inline-block;
     text-shadow:1px 1px 0px #0;
-    /* -webkit-box-shadow:inset 1px -2px 0px 0px #eb0000;
-       -moz-box-shadow:inset 1px -2px 0px 0px #eb0000;
-       box-shadow:inset 1px -2px 0px 0px #eb0000; */
-}.btn-main:hover {
+
+    /* -webkit-transition: all 0.8s ease 0s;
+       -moz-transition: all 0.8s ease 0s;
+       transition: all 0.8s ease 0s; */
+}
+
+.btn-main:hover {
     background:-moz-linear-gradient( center top, #FF962D 55%, #F27900 50% );
     background:-ms-linear-gradient( top, #FF962D 55%, #F27900 50% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF962D', endColorstr='#F27900');
     background:-webkit-gradient( linear, left top, left bottom, color-stop(55%, #FF962D), color-stop(50%, #F27900) );
     background-color:#FF962D;
 
-    -webkit-transition-delay:0.1s;
-    -moz-transition-delay:0.1s;
-    -ms-transition-delay:0.1s;
-    -o-transition-delay:0.1s;
-    transition-delay:0.1s
+}
 
-}.btn-main:active {
+.btn-main:active {
     position:relative;
     top:1px;
 }
