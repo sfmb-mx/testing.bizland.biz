@@ -1963,9 +1963,7 @@ fieldset h1 {
 }
 
 .header-bg {
-    /* background:  #333333 */
     background:  radial-gradient(#555, #000);
-    /* height:      90px */
 }
 
 .pad-mcontent {
@@ -2013,9 +2011,7 @@ fieldset h1 {
 
 .p-blue {
     margin-top: 10px;
-    /* letter-spacing: 8px; */
     font-family: Open Sans, sans-serif; font-weight:200;
-    /* text-transform: uppercase; */
     color: #026BAC;
     font-size: 11px;
     line-height:15px;
@@ -2080,10 +2076,6 @@ fieldset h1 {
     color:#ffffff;
     display:inline-block;
     text-shadow:1px 1px 0px #0;
-
-    /* -webkit-transition: all 0.8s ease 0s;
-       -moz-transition: all 0.8s ease 0s;
-       transition: all 0.8s ease 0s; */
 }
 
 .btn-main:hover {
@@ -2126,4 +2118,8 @@ fieldset h1 {
     background-image: -o-linear-gradient(top, #FF962D, #F27900);
     background-image: linear-gradient(to bottom, #FF962D, #F27900);
     text-decoration: none;
+}
+
+.u-link {
+    text-decoration: underline;
 }
