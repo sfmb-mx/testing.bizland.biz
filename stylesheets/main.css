@@ -2,12 +2,12 @@
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*This is main CSS file that contains custom style rules used in this template*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: Uber.*/
+/* Template Name: Bizland.*/
 /* Version: 1.0 Initial Release*/
-/* Build Date: 02nd Jan 2015*/
-/* Author: Designova.*/
-/* Website: http://www.Designova.net */
-/* Copyright: (C) 2015 */
+/* Build Date: 02nd Jan 2016*/
+/* Author: Bizland.*/
+/* Website: http://www.bizland.biz */
+/* Copyright: (C) 2016 */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -26,7 +26,7 @@
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 body
 {
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 body{
 	font-weight:300;
@@ -36,8 +36,8 @@ body{
 a, a:hover, a:focus{
 	text-decoration: none;
 }
-a:focus { 
-    	outline: none; 
+a:focus {
+    	outline: none;
 }
 .animated{
 	visibility: hidden;
@@ -435,13 +435,13 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 .service-icon{
 	padding: 30px;
 	text-align: center;
-	border-right:solid 1px; 
+	border-right:solid 1px;
 }
 .service-icon:last-child{
 	border: none;
 }
 .service-icon-wrap .row{
-	border-bottom:solid 1px; 
+	border-bottom:solid 1px;
 }
 .service-icon-wrap .row:last-child{
 	border: none;
@@ -610,7 +610,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
         .works-item-inner{
             text-align: center;
         }
-        .works-item-inner h3{ 
+        .works-item-inner h3{
             font-size: 12px;
             font-weight: 600;
             letter-spacing: 4px;
@@ -624,7 +624,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
-        .works-item-inner p{  
+        .works-item-inner p{
             transform: translateY(500px);
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
@@ -632,7 +632,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
-        .works-item-inner p > span{  
+        .works-item-inner p > span{
             font-size: 12px;
             font-weight: 200;
             line-height: 19px;
@@ -641,8 +641,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
             margin-top: 0px;
             border-top: solid 1px;
         }
-        .works-item a:hover 
-        .works-item-inner h3{ 
+        .works-item a:hover
+        .works-item-inner h3{
             transform: translateY(0px);
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
@@ -650,8 +650,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
                  -o-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
         }
-        .works-item a:hover 
-        .works-item-inner p{  
+        .works-item a:hover
+        .works-item-inner p{
             transform: translateY(0px);
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;

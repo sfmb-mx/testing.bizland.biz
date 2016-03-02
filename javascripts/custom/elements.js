@@ -2,11 +2,11 @@
 //--------------------------------------------------------------------------------------------------------------------------------
 //This is main JS file that contains custom JS scipts and initialization used in this template*/
 // -------------------------------------------------------------------------------------------------------------------------------
-// Template Name: EIGHT.
-// Author: Designova.
+// Template Name: Bizland.
+// Author: Bizland.
 // Version 1.0 - Initial Release
-// Website: http://www.Designova.net 
-// Copyright: (C) 2015 
+// Website: http://www.bizland.biz
+// Copyright: (C) 2016
 // -------------------------------------------------------------------------------------------------------------------------------
 
 /*global $:false */
@@ -18,15 +18,15 @@
 
 $(function ($) {
 
-     
-    $(".dropdown").hover(            
+
+    $(".dropdown").hover(
         function() {
             $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
-            $(this).toggleClass('open');        
+            $(this).toggleClass('open');
         },
         function() {
             $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
-            $(this).toggleClass('open');       
+            $(this).toggleClass('open');
         }
     );
 
@@ -44,13 +44,13 @@ $(function ($) {
       next.children(':first-child').clone().appendTo($(this));
 
       if (next.next().length>0) {
-     
+
           next.next().children(':first-child').clone().appendTo($(this)).addClass('rightest');
-          
+
       }
       else {
           $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-         
+
       }
     });
 
@@ -72,7 +72,7 @@ $(function ($) {
 
 
 
-// Digits Counter Plugin     
+// Digits Counter Plugin
 
 (function($) {
     $.fn.countTo = function(options) {
@@ -119,7 +119,7 @@ $(function ($) {
         onUpdate: null,  // callback method for every time the element is updated,
         onComplete: null,  // callback method for when the element finishes updating
     };
-})(jQuery);   
+})(jQuery);
 
   //counter init
 
@@ -148,12 +148,3 @@ $(function ($) {
 
 })();
 //  JSHint wrapper $(function ($)  : ends
-
-
-
-
-
-
-
-  
-

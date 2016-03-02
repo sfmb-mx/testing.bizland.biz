@@ -2,10 +2,10 @@
 //--------------------------------------------------------------------------------------------------------------------------------
 //This is  JS file that activates a type of BG Image Slideshow used in this template*/
 // -------------------------------------------------------------------------------------------------------------------------------
-// Template Name: DIGNITY.
-// Author: Designova.
-// Website: http://www.designova.net 
-// Copyright: (C) 2013 
+// Template Name: Bizland.
+// Author: Bizland.
+// Website: http://www.bizland.biz
+// Copyright: (C) 2016
 // -------------------------------------------------------------------------------------------------------------------------------
 
 /*global $:false */
@@ -52,18 +52,9 @@ $(function ($) {
             });
 
 
-   
+
 });
 // $(function ($)  : ends
 
 })();
 //  JSHint wrapper $(function ($)  : ends
-
-
-
-
-
-
-
-	
-

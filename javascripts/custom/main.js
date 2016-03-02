@@ -2,11 +2,11 @@
 //--------------------------------------------------------------------------------------------------------------------------------
 //This is main JS file that contains custom JS scipts and initialization used in this template*/
 // -------------------------------------------------------------------------------------------------------------------------------
-// Template Name: EIGHT.
-// Author: Designova.
+// Template Name: Bizland.
+// Author: Bizland.
 // Version 1.0 - Initial Release
-// Website: http://www.Designova.net 
-// Copyright: (C) 2015 
+// Website: http://www.bizland.biz
+// Copyright: (C) 2016
 // -------------------------------------------------------------------------------------------------------------------------------
 
 /*global $:false */
@@ -18,7 +18,7 @@
 
 $(function ($) {
 
-     
+
     //Detecting viewpot dimension
      var vH = $(window).height();
      var vW = $(window).width();
@@ -29,7 +29,7 @@ $(function ($) {
      $('.halfheight').css('height',vH/2);
      $('.fullwidth').css('width',vW);
      $('.halfwidth').css('width',vW/2);
-  
+
     $('.page-fold.subtle').next().css('margin-top',vH);
 
     //Mobile Menu (multi level)
@@ -48,12 +48,3 @@ $(function ($) {
 
 })();
 //  JSHint wrapper $(function ($)  : ends
-
-
-
-
-
-
-
-  
-
