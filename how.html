@@ -28,6 +28,11 @@
         <link href="stylesheets/ionicons.min.css" rel="stylesheet">
         <link href="stylesheets/slimmenu.css" rel="stylesheet"/>
         <link href="stylesheets/navmenu.css" rel="stylesheet">
+        <link href="stylesheets/owl.carousel.css" rel="stylesheet">
+        <link href="stylesheets/owl.theme.css" rel="stylesheet">
+        <link href="stylesheets/venobox.css" rel="stylesheet" />
+        <link href="stylesheets/parallax.css" rel="stylesheet">
+        <link href="stylesheets/jquery.bxslider.css" rel="stylesheet">
         <!-- Main Template Styles -->
         <link href="stylesheets/main.css" rel="stylesheet">
         <link href="stylesheets/less-compiled.css" rel="stylesheet">
@@ -53,26 +58,21 @@
             <script src="bootstrap/js/respond.min.js"></script>
         <![endif]-->
 
-
     </head>
-
 
     <body>
 
-
         <!-- main navigation trigger -->
         <div class="main-nav visible-lg">
-            <div class="mobile-toggle black">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+	    <div class="mobile-toggle black">
+	        <span></span>
+	        <span></span>
+	        <span></span>
+	    </div>
         </div>
 
         <header class="masthead visible-lg">
-            <a href="index.html"><img data-no-retina class="main-logo" alt="" title="" src="images/logo.png"/></a>
-
-
+	    <a href="index.html"><img data-no-retina class="main-logo" alt="" title="" src="images/logo.png"/></a>
         </header>
 
         <!-- main menu : starts (please refer to PDF user-guide for setting up the menu)-->
@@ -131,16 +131,37 @@
         <!-- Master Wrap : starts -->
         <section id="mastwrap" class="mastwrap">
 
-            <section class="page-section fullheight">
+            <section class="page-fold about-bg subtle fullheight">
                 <div class="valign">
+
                     <div class="container">
                         <div class="row">
                             <article class="text-center col-md-12">
-                                <a href="index.html"><img data-no-retina class="fullscreen-badge black-bg" alt="" title="" src="images/badge-white.png"/></a>
+                                <h1 class="page-heading font4bold black">Como</h1>
+                                <div class="color-bg"></div>
+                                <h4 class="sub-heading-minor font4light dark">lo hacemos</h4>
                             </article>
                         </div>
                     </div>
 
+                </div>
+            </section>
+
+            <section class="page-section white-bg">
+                <div class="container">
+                    <div class="row">
+                        <article class="text-center col-md-10 col-md-offset-1">
+                            <a href="index.html"><img data-no-retina alt="" title="" src="images/badge.png"/></a>
+                            <p class="minimal-caps font4 black add-top-quarter">We are Sphere Forecasting.</p>
+                        </article>
+                    </div>
+                    <div class="row">
+                        <article class="text-center col-md-10 col-md-offset-1">
+                            <div class="inner-spacer color-bg"></div>
+                            <p class="add-top-quarter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae ligula malesuada, quis egestas mauris pretium. Donec ac laoreet erat. Donec ac metus non dolor feugiat fermentum. Aliquam et tempor dolor. Donec at orci libero. Morbi euismod dapibus elit, vitae faucibus nulla malesuada ac. Mauris sed felis enim. Quisque hendrerit, ipsum aliquet ultrices rhoncus, dui tellus lacinia massa, in dapibus urna mi ut mi. Donec aliquet sapien justo, id dignissim augue varius sit amet euismod dapibus elit, vitae faucibus nulla malesuada. </p>
+                            <h4 class="font1 dark add-top-quarter color">Don't forget to explore our portfolio</h4>
+                        </article>
+                    </div>
                 </div>
             </section>
 
@@ -150,12 +171,166 @@
 
 
 
+            <section class="process process-bg parallax">
+                <div class="separator-section">
 
+                    <div class="container">
+                        <div class="row">
+                            <article class="col-md-10 col-md-offset-1 text-center">
+
+
+
+                                <ul class="bxslider features-slider">
+
+
+                                    <li>
+                                        <div class="row">
+                                            <article class="col-md-12 text-center">
+                                                <h1 class="process-text white font4thin">Creating a design is like a story telling, both  should be meaningful.</h1>
+                                            </article>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <article class="col-md-12 text-center">
+                                                <h1 class="process-text white font4thin">A great design is evolved from a thought of imagination.</h1>
+                                            </article>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="row">
+                                            <article class="col-md-12 text-center">
+                                                <h1 class="process-text white font4thin">If you like to enjoy coding, you should be known as a poet. Code is poetry.</h1>
+                                            </article>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+
+
+
+                                <div id="bx-pager" class="features-slider-triggers font4bold">
+                                    <a class="features-triggered" data-slide-index="0" href="">Invent</a>
+                                    <a data-slide-index="1" href="">Design</a>
+                                    <a data-slide-index="2" href="">Coding</a>
+                                </div>
+
+
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="page-section white-bg">
+                <div class="container">
+
+                    <div class="row">
+
+                        <article class="col-md-10 col-md-offset-1  service-icon-wrap">
+
+                            <div class="row">
+
+                                <div class="col-md-6 service-icon service-icon-bg-01 parallax">
+                                    <i class="ion-ios7-bookmarks-outline color"></i>
+                                    <h4 class="font4 black">Web Design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae ligula.</p>
+                                </div>
+                                <div class="col-md-6 service-icon service-icon-bg-02 parallax">
+                                    <i class="ion-ios7-analytics-outline color"></i>
+                                    <h4 class="font4 black">Development</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae ligula.</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 service-icon service-icon-bg-03 parallax">
+                                    <i class="ion-ios7-alarm-outline color"></i>
+                                    <h4 class="font4 black">Branding</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae ligula.</p>
+                                </div>
+                                <div class="col-md-6 service-icon service-icon-bg-04 parallax">
+                                    <i class="ion-ios7-browsers-outline color"></i>
+                                    <h4 class="font4 black">Logo Design</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae ligula.</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 service-icon service-icon-bg-05 parallax">
+                                    <i class="ion-ios7-cart-outline color"></i>
+                                    <h4 class="font4 black">Ad Campaigns</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae ligula.</p>
+                                </div>
+                                <div class="col-md-6 service-icon service-icon-bg-06 parallax">
+                                    <i class="ion-ios7-chatboxes-outline color"></i>
+                                    <h4 class="font4 black">Interactive UI</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae ligula.</p>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="page-section team-bg parallax">
+                <div class="container">
+
+                    <div class="row">
+
+                        <article class="col-md-10 col-md-offset-1">
+
+                            <div class="row">
+
+                                <div class="col-md-4 team-block">
+                                    <div class="team-block-inner white-bg">
+                                        <img data-no-retina alt="" title="" class="img-responsive" src="images/team/01.jpg"/>
+                                        <h4 class="font4 color">John Doe</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 team-block">
+                                    <div class="team-block-inner white-bg">
+                                        <img data-no-retina alt="" title="" class="img-responsive" src="images/team/02.jpg"/>
+                                        <h4 class="font4 color">John Doe</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 team-block">
+                                    <div class="team-block-inner white-bg">
+                                        <img data-no-retina alt="" title="" class="img-responsive" src="images/team/03.jpg"/>
+                                        <h4 class="font4 color">John Doe</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </article>
+
+                    </div>
+
+
+                </div>
+            </section>
 
 
 
             <footer class="mastfoot white-bg">
-                <div class="container">
+	        <div class="container">
                     <div class="row">
                         <article class="col-md-12 text-center">
                             <a href="index.html"><img data-no-retina alt="" title="" class="img-responsive foot-logo" src="images/logo.png"/></a>
@@ -165,10 +340,10 @@
                         <article class="col-md-12 text-center">
                             <div class="inner-spacer color-bg"></div>
                             <ul class="social-nav font4 black">
-                                <li><a href="showcase07.html#">twitter</a></li>
-                                <li><a href="showcase07.html#">facebook</a></li>
-                                <li><a href="showcase07.html#">dribbble</a></li>
-                                <li><a href="showcase07.html#">behance</a></li>
+                                <li><a href="about.html#">twitter</a></li>
+                                <li><a href="about.html#">facebook</a></li>
+                                <li><a href="about.html#">dribbble</a></li>
+                                <li><a href="about.html#">behance</a></li>
                             </ul>
                         </article>
                     </div>
@@ -197,36 +372,32 @@
         <script src="javascripts/libs/retina.js" ></script>
         <script src="javascripts/libs/classie.js" ></script>
         <script src="javascripts/libs/jquery.touchSwipe.js"></script>
+        <script src="javascripts/libs/waypoints.min.js" ></script>
         <script src="javascripts/libs/jquery.slimmenu.min.js"></script>
-        <script src="javascripts/libs/jquery.backstretch.min.js" ></script>
+        <script src="javascripts/libs/jquery.parallax-1.1.3.js"></script>
+        <script src="javascripts/libs/owl.carousel.js"></script>
+        <script src="javascripts/libs/jquery.bxslider.min.js"></script>
 
         <!-- JS Custom Codes -->
         <script src="javascripts/custom/navmenu-init.js" ></script>
+        <script src="javascripts/custom/parallax-init.js" ></script>
+        <script src="javascripts/custom/owl-init.js" ></script>
         <script src="javascripts/custom/main.js" ></script>
-
 
         <script>
 
-         $(function ($) {
-
-             /*
-              * Here is an example of how to use Backstretch as a slideshow.
-              * Just pass in an array of images, and optionally a duration and fade value.
-              */
-
-             // Duration is the amount of time in between slides,
-             // and fade is value that determines how quickly the next image will fade in
-             $.backstretch([
-                 "images/promo/02.jpg"
-                 , "images/promo/03.jpg"
-                 , "images/promo/04.jpg"
-             ], {duration: 3000, fade: 1250});
-
-
-
-
+         $('.bxslider').bxSlider({
+             pagerCustom: '#bx-pager',
+             controls: false,
+             adaptiveHeight: true
          });
-         // $(function ($)  : ends
+
+         $('.features-slider-triggers a').click(function(){
+             $('.features-slider-triggers a').removeClass('features-triggered');
+             $(this).addClass('features-triggered');
+         })
+
+
         </script>
 
     </body>
